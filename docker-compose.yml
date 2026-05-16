@@ -1,0 +1,48 @@
+services:
+  # RabbitMQ Message Broker
+  rabbitmq:
+    image: rabbitmq:3.12-management
+    container_name: hireconnect-rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+    networks:
+      - hireconnect-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      timeout: 30s
+      retries: 5
+      interval: 30s
+      start_period: 60s
+
+  # Redis Cache
+  redis:
+    image: redis:7.2-alpine
+    container_name: hireconnect-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - hireconnect-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      timeout: 10s
+      retries: 5
+      interval: 30s
+      start_period: 30s
+
+volumes:
+  rabbitmq_data:
+  redis_data:
+
+networks:
+  hireconnect-network:
+    driver: bridge
