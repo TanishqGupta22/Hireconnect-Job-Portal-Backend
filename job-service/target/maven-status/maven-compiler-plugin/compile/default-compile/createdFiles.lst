@@ -1,0 +1,16 @@
+com\hireconnect\job\exception\JobNotFoundException.class
+com\hireconnect\job\entity\Job$JobBuilder.class
+com\hireconnect\job\client\SubscriptionClient.class
+com\hireconnect\job\entity\JobType.class
+com\hireconnect\job\JobServiceApplication.class
+com\hireconnect\job\dto\JobSearchRequest.class
+com\hireconnect\job\controller\JobController.class
+com\hireconnect\job\entity\Job.class
+com\hireconnect\job\exception\GlobalExceptionHandler.class
+com\hireconnect\job\controller\JobController$1.class
+com\hireconnect\job\config\OpenApiConfig.class
+com\hireconnect\job\dto\JobResponse.class
+com\hireconnect\job\entity\JobStatus.class
+com\hireconnect\job\repository\JobRepository.class
+com\hireconnect\job\service\JobService.class
+com\hireconnect\job\dto\JobRequest.class
