@@ -1,0 +1,17 @@
+com\hireconnect\notification\config\OpenApiConfig.class
+com\hireconnect\notification\repository\NotificationRepository.class
+com\hireconnect\notification\service\EmailService.class
+com\hireconnect\notification\entity\Notification$NotificationBuilder.class
+com\hireconnect\notification\service\NotificationService.class
+com\hireconnect\notification\dto\NotificationResponse.class
+com\hireconnect\notification\exception\NotificationNotFoundException.class
+com\hireconnect\notification\config\RabbitMQConfig.class
+com\hireconnect\notification\entity\Notification.class
+com\hireconnect\notification\NotificationServiceApplication.class
+com\hireconnect\notification\entity\NotificationType.class
+com\hireconnect\notification\controller\NotificationController.class
+com\hireconnect\notification\listener\RabbitMQListener.class
+com\hireconnect\notification\client\ProfileClient$CandidateProfileResponse.class
+com\hireconnect\notification\client\ProfileClient.class
+com\hireconnect\notification\dto\NotificationRequest.class
+com\hireconnect\notification\exception\GlobalExceptionHandler.class
