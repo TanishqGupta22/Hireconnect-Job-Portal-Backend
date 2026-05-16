@@ -1,0 +1,6 @@
+com\hireconnect\gateway\ApiGatewayApplication.class
+com\hireconnect\gateway\config\GatewayConfig.class
+com\hireconnect\gateway\security\JwtService.class
+com\hireconnect\gateway\exception\GlobalExceptionHandler.class
+com\hireconnect\gateway\filter\JwtAuthGatewayFilter.class
+com\hireconnect\gateway\filter\JwtAuthGatewayFilter$Config.class
