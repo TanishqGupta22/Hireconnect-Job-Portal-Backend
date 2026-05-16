@@ -1,0 +1,8 @@
+com\hireconnect\analytics\config\OpenApiConfig.class
+com\hireconnect\analytics\dto\RecruiterAnalytics.class
+com\hireconnect\analytics\controller\AnalyticsController.class
+com\hireconnect\analytics\service\AnalyticsService.class
+com\hireconnect\analytics\AnalyticsServiceApplication.class
+com\hireconnect\analytics\dto\AdminAnalytics.class
+com\hireconnect\analytics\dto\RecruiterAnalytics$ApplicationTrend.class
+com\hireconnect\analytics\dto\ChartData.class
