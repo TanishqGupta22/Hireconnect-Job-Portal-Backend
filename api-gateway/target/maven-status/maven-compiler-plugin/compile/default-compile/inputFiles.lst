@@ -1,0 +1,5 @@
+C:\Users\Tanishq Gupta\Desktop\hireconnect\api-gateway\src\main\java\com\hireconnect\gateway\ApiGatewayApplication.java
+C:\Users\Tanishq Gupta\Desktop\hireconnect\api-gateway\src\main\java\com\hireconnect\gateway\config\GatewayConfig.java
+C:\Users\Tanishq Gupta\Desktop\hireconnect\api-gateway\src\main\java\com\hireconnect\gateway\exception\GlobalExceptionHandler.java
+C:\Users\Tanishq Gupta\Desktop\hireconnect\api-gateway\src\main\java\com\hireconnect\gateway\filter\JwtAuthGatewayFilter.java
+C:\Users\Tanishq Gupta\Desktop\hireconnect\api-gateway\src\main\java\com\hireconnect\gateway\security\JwtService.java
